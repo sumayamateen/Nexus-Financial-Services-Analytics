@@ -126,7 +126,7 @@ The following screenshots showcase the seven sections of the Excel Board Reporti
 
 ## 6. Project Deliverable
 
-**[View / Download the Complete Excel Board Reporting Pack](Nexus_Board_Pack.xlsx)**
+**[View / Download the Complete Excel Board Reporting Pack](Nexus_Financial_Services_Board_Report.xlsx)**
 
 The workbook includes the executive summary, detailed financial and operational analysis, supporting calculations, methodology notes, scenario analysis, and management recommendations.
 
