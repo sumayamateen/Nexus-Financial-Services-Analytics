@@ -1,118 +1,160 @@
-# Excel Board Reporting Pack | Nexus Financial Services
+# Nexus Financial Services | Excel Board Reporting & Financial Analysis
 
 **Tool:** Microsoft Excel  
-**Project:** Nexus Financial Services – Banking Analytics  
-**Role:** Data Analyst  
-**Project Type:** DataSimHQ Virtual Business Simulation
+**Industry:** Banking & Financial Services  
+**Project Type:** DataSimHQ Business Simulation  
+**Role:** Data Analyst
 
-## 1. Overview
+## 1. Business Problem
 
-This folder contains the Excel Board Reporting Pack developed for the Nexus Financial Services banking analytics case study.
+Nexus Financial Services, a simulated commercial bank, was experiencing several business and financial challenges that required management attention.
 
-The workbook consolidates analytical findings across multiple banking functions into a structured reporting document designed for executive review and strategic decision-making.
+The leadership team needed a consolidated view of the bank's financial health, customer behavior, operational performance, and emerging risks.
 
-The objective was to transform banking data into clear financial and operational insights, helping senior management understand business performance, identify emerging risks, and prioritize corrective actions.
+The major concerns included:
 
-## 2. Workbook Contents
+- Increasing customer churn and declining customer retention.
+- Rising fraud cases and potential financial losses.
+- Deteriorating loan portfolio quality and default risk.
+- Uneven deposit and loan performance across branches.
+- Liquidity pressure caused by a high loan-to-deposit ratio.
+- Limited visibility into future financial risks and business performance.
 
-The `Nexus_Board_Pack.xlsx` workbook contains the following reporting sections:
+**Business Objective:** Analyze banking performance data and develop an Excel-based Board Reporting Pack that transforms financial and operational information into actionable insights, helping management identify risks, evaluate performance, and prioritize strategic decisions.
 
-| Worksheet / Section | Purpose |
+## 2. Analytical Approach
+
+I developed a structured Excel reporting workbook covering seven major analytical areas.
+
+| Analysis | What I Investigated |
 |---|---|
-| Executive Summary | Presents the most important banking KPIs, business findings, and overall performance. |
-| Loan Portfolio | Examines loan portfolio composition, repayment performance, and default exposure. |
-| Customer Churn | Investigates customer departures, churn trends, industry segments, and banker performance. |
-| Fraud Analysis | Evaluates fraud cases, financial exposure, transaction patterns, and emerging risks. |
-| Branch Profit & Loss | Compares branch-level financial performance and profitability indicators. |
-| Liquidity Stress | Evaluates liquidity exposure and the loan-to-deposit ratio against management thresholds. |
-| Forward Outlook | Presents forward-looking scenarios and potential financial implications. |
-| Board Recommendations | Converts analytical findings into proposed management actions. |
-| Appendix & Methodology | Provides supporting calculations, definitions, assumptions, and analytical context. |
+| Executive Summary | Consolidated banking KPIs, financial performance, and critical business risks. |
+| Loan Portfolio Analysis | Loan originations, portfolio composition, default rates, and industry-level credit risk. |
+| Customer Churn Analysis | Customer departures, churn trends, industry segmentation, cohort retention, and branch-level churn. |
+| Fraud Analysis | Fraud cases, financial losses, year-over-year changes, and customer-level fraud exposure. |
+| Branch Profit & Loss | Branch-level deposits, loan originations, regional performance, and operational comparisons. |
+| Liquidity Stress Analysis | Active deposits, outstanding loans, loan-to-deposit ratio, and financial stress scenarios. |
+| Forward Outlook | Historical comparisons and 2025 pessimistic, base-case, and optimistic projections. |
 
-## 3. Key Analytical Areas
+## 3. Key Findings & Insights
 
-### Customer Churn Analysis
-- Compared customer departures across reporting periods.
-- Examined churn concentration by industry.
-- Evaluated differences in banker-level churn performance.
-- Identified customer retention priorities.
+### Customer Churn
+- Customer departures increased from 503 in 2023 to 1,848 in 2024, representing approximately 267% growth.
+- More than 80% of 2024 departures occurred during the second half of the year.
+- Construction (14.4%), Retail Trade (14.2%), and Accommodation & Food (13.8%) recorded the highest industry churn rates.
+- The analysis identified substantial differences in banker-level customer retention performance.
+
+**Insight:** Customer retention requires targeted attention, particularly in high-churn industries and among underperforming relationship managers.
+
+### Loan Portfolio Risk
+- The reported network default rate was approximately 8.37%.
+- Accommodation & Food (16.0%), Construction (14.8%), and Retail Trade (13.7%) had the highest industry default rates.
+- Monthly loan originations declined substantially across the reporting period.
+- The watchlist share increased from 4.9% in December 2024 to 11.1% in November 2025.
+
+**Insight:** Strengthen credit-risk monitoring, introduce early-warning indicators, and investigate high-default industries.
 
 ### Fraud Analysis
-- Compared fraud cases and losses across periods.
-- Investigated transaction-level fraud patterns.
-- Examined changes in wire-transfer fraud indicators.
-- Identified areas requiring stronger monitoring.
+- Reported fraud cases increased from 495 in 2023 to 1,305 in 2024, approximately 164% growth.
+- The workbook identified a significant increase in wire-transfer fraud flags during 2024.
+- Customer-level analysis highlighted repeat fraud cases and financial exposure.
 
-### Loan Portfolio Analysis
-- Reviewed current, watchlist, and default loan categories.
-- Evaluated portfolio risk indicators.
-- Compared default rates across reporting periods.
-- Identified areas for closer credit-risk monitoring.
+**Insight:** Strengthen transaction monitoring, investigate changes in wire-transfer activity, and improve fraud-prevention controls.
 
-### Branch Financial Performance
-- Compared deposits and loan activity across branches.
-- Examined differences in branch-level performance.
-- Identified opportunities for further operational investigation.
+### Branch Performance
+- The workbook compared 40 active branches across five regions.
+- The five highest-deposit branches accounted for approximately 16% of network deposits.
+- The five lowest-deposit branches accounted for approximately 7%.
+- Regional comparisons highlighted differences in deposit and loan activity.
 
-### Liquidity Risk Analysis
-- Evaluated the loan-to-deposit ratio.
-- Compared liquidity indicators against management thresholds.
-- Considered potential implications for lending and deposit management.
+**Insight:** Evaluate branch performance using deposits, lending activity, customer retention, and risk indicators before making resource-allocation decisions.
+
+### Liquidity Risk
+- The reported loan-to-deposit ratio was approximately 134.5%.
+- This exceeded the workbook's 80% liquidity threshold and the 90% management comfort benchmark discussed in its recommendations.
+- Regional analysis showed elevated loan-to-deposit ratios across all five regions.
+
+**Insight:** Improve deposit mobilization, monitor lending growth, and develop a structured liquidity-management plan.
 
 ### Forward Outlook
-- Organized forward-looking financial scenarios.
-- Evaluated potential business implications under stated assumptions.
-- Supported management planning and risk discussions.
+Developed three financial planning scenarios:
 
-## 4. Key Findings
+- **Pessimistic:** Higher churn, increased fraud exposure, and weaker financial performance.
+- **Base Case:** Moderate improvements under reasonable business assumptions.
+- **Optimistic:** Stronger customer retention, lower fraud exposure, and improved revenue.
 
-The workbook highlights several important findings from the simulated banking dataset:
+**Insight:** Scenario analysis helps management understand how different business conditions and corrective actions could affect future financial performance.
 
-| Area | Finding |
-|---|---|
-| Customer Churn | Departures increased from 503 in 2023 to 1,848 in 2024. |
-| Churn Concentration | More than 80% of 2024 departures occurred in the second half of the year. |
-| Fraud | Fraud cases increased by approximately 164% year over year. |
-| Loan Portfolio | The reported 2024 default rate was approximately 8.17%, compared with 9.21% in 2023. |
-| Branch Performance | The five highest-deposit branches held approximately 16% of total deposits. |
-| Liquidity | The reported loan-to-deposit ratio was approximately 134.5%. |
+## 4. Management Recommendations
 
-*Figures are based on the workbook's reported results and should be interpreted alongside the assumptions and reconciliation notes in the main project documentation.*
+Based on the analysis, the workbook presents three major strategic priorities:
 
-## 5. Business Recommendations
+1. **Customer Retention:** Introduce 90-day onboarding reviews, investigate high-churn industries, and strengthen relationship-manager performance.
+2. **Fraud Prevention:** Improve real-time wire-transfer monitoring, strengthen authentication controls, and establish dedicated fraud oversight.
+3. **Capital & Liquidity Management:** Review branch-level resource allocation, strengthen deposit mobilization, and work toward reducing the loan-to-deposit ratio.
 
-The analysis supports three major management priorities:
+## 5. Excel Reporting Pack – Visual Preview
 
-1. **Improve Customer Retention:** Investigate high-churn industries and strengthen relationship-management practices.
-2. **Strengthen Fraud Controls:** Improve transaction monitoring, particularly for wire transfers, and investigate emerging fraud patterns.
-3. **Manage Liquidity Exposure:** Review deposit mobilization, lending growth, and liquidity management against the bank's approved targets.
+The following screenshots showcase the seven sections of the Excel Board Reporting Pack.
 
-## 6. Skills Demonstrated
+### 1. Executive Summary
 
-- Excel-based financial analysis
-- Banking KPI development
-- Business performance reporting
-- Comparative and trend analysis
-- Risk and liquidity analysis
-- Financial scenario analysis
-- Data interpretation
-- Executive reporting
-- Business recommendations
+![Executive Summary](1_excutive_summary.png)
 
-## 7. File
+### 2. Loan Portfolio Analysis
 
-**Main Workbook:** `Nexus_Board_Pack.xlsx`
+![Loan Portfolio](2_loan_portfolio.png)
 
-The workbook is provided as a supporting deliverable in the main Nexus Financial Services Analytics repository.
+### 3. Customer Churn Analysis
 
-## 8. Notes & Limitations
+![Customer Churn](3_churn_analysis.PNG)
 
-- Nexus Financial Services is a fictional banking case developed through DataSimHQ.
-- This is a portfolio project, not professional employment or a real banking engagement.
-- Historical findings are based on the available simulated data.
-- Forward-looking results are scenario-based and depend on stated assumptions.
-- Currency, liquidity thresholds, and financial calculations should be interpreted according to the reconciled methodology in the final workbook.
+### 4. Fraud Analysis
+
+![Fraud Analysis](4_fraud_analysis.png)
+
+### 5. Branch Profit & Loss
+
+![Branch Profit and Loss](5_branch_profit_&_loss.png)
+
+### 6. Liquidity Stress Analysis
+
+![Liquidity Stress](6_liquidity_stress.png)
+
+### 7. Forward Outlook
+
+![Forward Outlook](7_forward_outlook.png)
+
+## 6. Project Deliverable
+
+**[View / Download the Complete Excel Board Reporting Pack](Nexus_Board_Pack.xlsx)**
+
+The workbook includes the executive summary, detailed financial and operational analysis, supporting calculations, methodology notes, scenario analysis, and management recommendations.
+
+## 7. Skills Demonstrated
+
+- Microsoft Excel
+- Financial and Banking Analytics
+- KPI Analysis and Reporting
+- Customer Churn Analysis
+- Loan Portfolio and Credit Risk Analysis
+- Fraud Analytics
+- Branch Performance Analysis
+- Liquidity Risk Assessment
+- Trend and Comparative Analysis
+- Scenario and Forecast Analysis
+- Business Intelligence
+- Data-Driven Decision Support
+
+## 8. Project Information & Limitations
+
+- Nexus Financial Services is a fictional banking organization used in a DataSimHQ business simulation.
+- This is an independent portfolio project, not an actual banking engagement.
+- The workbook uses simulated banking data.
+- Monetary values are labelled in Nigerian Naira (₦) in the workbook methodology.
+- Historical analysis, assumptions, and forward-looking projections should be interpreted according to the supporting workbook documentation.
+- Financial totals and currency scaling require reconciliation across certain reporting sections before the figures are treated as final.
 
 ---
 
-**Part of:** [Nexus Financial Services – Banking Analytics](../README.md)
+**Part of:** Nexus Financial Services – Banking Analytics Portfolio Project.
