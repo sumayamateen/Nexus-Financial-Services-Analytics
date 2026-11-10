@@ -99,7 +99,7 @@ The following screenshots showcase the seven sections of the Excel Board Reporti
 
 ### 1. Executive Summary
 
-![Executive Summary](1_excutive_summary.png)
+![Executive Summary](1_executive_summary.png)
 
 ### 2. Loan Portfolio Analysis
 
