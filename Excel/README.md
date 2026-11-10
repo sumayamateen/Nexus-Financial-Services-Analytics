@@ -3,7 +3,6 @@
 **Tool:** Microsoft Excel  
 **Industry:** Banking & Financial Services  
 **Project Type:** DataSimHQ Business Simulation  
-**Role:** Data Analyst
 
 ## 1. Business Problem
 
